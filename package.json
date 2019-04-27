@@ -1,0 +1,36 @@
+{
+  "name": "quickmathgame",
+  "version": "1.0.0",
+  "description": "- name of project: Quick Math - platform: web ## date: 2019-04-02",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha-jsdom": "^2.0.0",
+    "nyc": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "./node_modules/nyc/bin/nyc.js --reporter=text ./node_modules/mocha/bin/mocha"
+  },
+  "author": "group_8_usth_SE_gen_8_year_2",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larycoder/USTH-SE-2019.git"
+  },
+  "bugs": {
+    "url": "https://github.com/larycoder/USTH-SE-2019/issues"
+  },
+  "homepage": "https://github.com/larycoder/USTH-SE-2019#readme"
+}
